@@ -1,0 +1,39 @@
+{
+    "name": "obautomation",
+    "version": "1.0.0",
+    "description": "A Node.js application following Docker best practices.",
+    "main": "src/index.js",
+    "scripts": {
+      "start": "node src/index.js",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "lint": "eslint src/"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "dotenv": "^16.0.3",
+      "dayjs": "^1.11.9"
+    },
+    "devDependencies": {
+      "eslint": "^8.32.0",
+      "nodemon": "^2.0.20"
+    },
+    "engines": {
+      "node": ">=16.0.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yourusername/obautomation.git"
+    },
+    "keywords": [
+      "node",
+      "docker",
+      "best-practices"
+    ],
+    "author": "Your Name",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/yourusername/obautomation/issues"
+    },
+    "homepage": "https://github.com/yourusername/obautomation#readme"
+  }
+  
